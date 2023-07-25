@@ -1,0 +1,189 @@
+{
+    "current_id": 12,
+    "usuarios": [
+        {
+            "id": 0,
+            "nombre": "Miguel Flores",
+            "edad": 27,
+            "email": "miguel@example.com",
+            "password": "qwerty",
+            "direccion": "Avenida 777, Pueblo"
+        },
+        {
+            "id": 1,
+            "nombre": "Elena Mart\u00ednez",
+            "edad": 22,
+            "email": "elena@example.com",
+            "password": "miclave",
+            "direccion": "Avenida 222, Pueblo"
+        },
+        {
+            "id": 2,
+            "nombre": "Mar\u00eda L\u00f3pez",
+            "edad": 25,
+            "email": "maria@example.com",
+            "password": "password456",
+            "direccion": "Avenida 456, Pueblo"
+        },
+        {
+            "id": 3,
+            "nombre": "Luis Ram\u00edrez",
+            "edad": 40,
+            "email": "luis@example.com",
+            "password": "micontra",
+            "direccion": "Calle 555, Ciudad"
+        },
+        {
+            "id": 4,
+            "nombre": "Luis Ram\u00edrez",
+            "edad": 40,
+            "email": "luis@example.com",
+            "password": "micontra",
+            "direccion": "Calle 555, Ciudad"
+        },
+        {
+            "id": 5,
+            "nombre": "Juan P\u00e9rez",
+            "edad": 30,
+            "email": "juan@example.com",
+            "password": "contrasena123",
+            "direccion": "Calle 123, Ciudad"
+        },
+        {
+            "id": 6,
+            "nombre": "Mar\u00eda L\u00f3pez",
+            "edad": 25,
+            "email": "maria@example.com",
+            "password": "password456",
+            "direccion": "Avenida 456, Pueblo"
+        },
+        {
+            "id": 7,
+            "nombre": "Elena Mart\u00ednez",
+            "edad": 22,
+            "email": "elena@example.com",
+            "password": "miclave",
+            "direccion": "Avenida 222, Pueblo"
+        },
+        {
+            "id": 8,
+            "nombre": "Carlos G\u00f3mez",
+            "edad": 35,
+            "email": "carlos@example.com",
+            "password": "clave789",
+            "direccion": "Plaza 789, Villa"
+        },
+        {
+            "id": 9,
+            "nombre": "Luis Ram\u00edrez",
+            "edad": 40,
+            "email": "luis@example.com",
+            "password": "micontra",
+            "direccion": "Calle 555, Ciudad"
+        },
+        {
+            "id": 10,
+            "nombre": "Sof\u00eda Vargas",
+            "edad": 33,
+            "email": "sofia@example.com",
+            "password": "abc123",
+            "direccion": "Plaza 222, Villa"
+        },
+        {
+            "id": 11,
+            "nombre": "Sof\u00eda Vargas",
+            "edad": 33,
+            "email": "sofia@example.com",
+            "password": "abc123",
+            "direccion": "Plaza 222, Villa"
+        },
+        {
+            "id": 12,
+            "nombre": "Luis Ram\u00edrez",
+            "edad": 40,
+            "email": "luis@example.com",
+            "password": "micontra",
+            "direccion": "Calle 555, Ciudad"
+        },
+        {
+            "id": 12,
+            "nombre": "admin",
+            "edad": "0",
+            "email": "admin@admin",
+            "password": "admin",
+            "direccion": "admin"
+        }
+    ],
+    "productos": [
+        {
+            "id": 1,
+            "nombre": "Smartphone",
+            "precio": 500,
+            "descripcion": "Tel\u00e9fono inteligente con diversas funciones y conectividad a internet.",
+            "distribuidor": "Samsung"
+        },
+        {
+            "id": 2,
+            "nombre": "Laptop (Port\u00e1til)",
+            "precio": 800,
+            "descripcion": "Computadora port\u00e1til que ofrece movilidad y rendimiento para tareas diarias.",
+            "distribuidor": "HP"
+        },
+        {
+            "id": 3,
+            "nombre": "Smartwatch",
+            "precio": 200,
+            "descripcion": "Reloj inteligente con funciones de seguimiento de actividad y notificaciones.",
+            "distribuidor": "Apple"
+        },
+        {
+            "id": 4,
+            "nombre": "Tablet",
+            "precio": 300,
+            "descripcion": "Dispositivo port\u00e1til con pantalla t\u00e1ctil para navegaci\u00f3n y entretenimiento.",
+            "distribuidor": "Lenovo"
+        },
+        {
+            "id": 5,
+            "nombre": "Televisor Smart TV",
+            "precio": 700,
+            "descripcion": "Televisor con acceso a internet y aplicaciones para streaming y entretenimiento.",
+            "distribuidor": "Sony"
+        },
+        {
+            "id": 6,
+            "nombre": "C\u00e1mara digital",
+            "precio": 400,
+            "descripcion": "C\u00e1mara fotogr\u00e1fica digital para capturar im\u00e1genes y videos de alta calidad.",
+            "distribuidor": "Canon"
+        },
+        {
+            "id": 7,
+            "nombre": "Consola de videojuegos",
+            "precio": 300,
+            "descripcion": "Dispositivo para jugar videojuegos con gr\u00e1ficos avanzados y experiencias inmersivas.",
+            "distribuidor": "Microsoft"
+        },
+        {
+            "id": 8,
+            "nombre": "Altavoz Bluetooth",
+            "precio": 100,
+            "descripcion": "Altavoz inal\u00e1mbrico para reproducir m\u00fasica desde dispositivos m\u00f3viles mediante Bluetooth.",
+            "distribuidor": "JBL"
+        },
+        {
+            "id": 9,
+            "nombre": "Auriculares inal\u00e1mbricos (TWS)",
+            "precio": 150,
+            "descripcion": "Auriculares inal\u00e1mbricos True Wireless Stereo para disfrutar de m\u00fasica sin cables.",
+            "distribuidor": "Sony"
+        },
+        {
+            "id": 10,
+            "nombre": "Impresora multifuncional",
+            "precio": 250,
+            "descripcion": "Impresora que tambi\u00e9n funciona como esc\u00e1ner y copiadora para tareas de oficina.",
+            "distribuidor": "Epson"
+        }
+    ]
+}
