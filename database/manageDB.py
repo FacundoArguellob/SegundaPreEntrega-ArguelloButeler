@@ -3,7 +3,7 @@ import os
 from database.productos import *
 path = os.path.abspath(os.path.dirname(__file__))
 first_id = {"current_id" : 0}
-file_name = "/DB.json"
+file_name = "\DB.json"
 current_id = 0
 db = {}
 
@@ -36,20 +36,32 @@ def inicio_db():
         estructura_db()   
     except FileNotFoundError:
         estructura_db()
-    print(db)
     
 
 def guardar_usuario(nuevo_usuario):
     global current_id
-    db['current_id'] = current_id
-    db['usuarios'].append(nuevo_usuario)
-    with open(path + file_name, "w") as file:
-        json.dump(db, file, indent=4)
-    print(db)
-    current_id += 1
+    try:
+        db['current_id'] = current_id
+        db['usuarios'].append(nuevo_usuario)
+        with open(path + file_name, "w") as file:
+            json.dump(db, file, indent=4)
+        current_id += 1
+        print("Usuario creado con exito")
+    except Exception as e:
+        print(f"paso esto: {e}")
+
 
 def peticion_usuario():
     return db["usuarios"]
 
+
 def peticion_productos():
     return db["productos"]
+
+
+def eliminar_db():
+    if os.path.exists(path + file_name):
+        os.remove(path + file_name)
+        print(f"El archivo {path + file_name} ha sido eliminado.")
+    else:
+        print(f"El archivo {path + file_name} no existe.")

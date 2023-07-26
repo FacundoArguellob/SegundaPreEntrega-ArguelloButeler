@@ -4,7 +4,8 @@ def menu_inicio():
     print("""
     (1) - Login
     (2) - Registro
-    (3) - Salir
+    (3) - Eliminar DB
+    (4) - Salir
     """)
 
 def menu_usuario():

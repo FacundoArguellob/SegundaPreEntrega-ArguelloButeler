@@ -3,6 +3,7 @@ from classes.classUsuario import Usuario
 from grafico.menus import *
 from random import randint
 
+
 def test():
     usuarios_test = [
     {
@@ -113,6 +114,8 @@ def login():
         login_usuario.login() 
     
 
+
+
 def menu():
     while True:
         menu_inicio()
@@ -124,6 +127,8 @@ def menu():
                 case 2:
                     registro()
                 case 3:
+                    eliminar_db()
+                case 4:
                     break
                 case _:
                     print("numero fuera de rango")
